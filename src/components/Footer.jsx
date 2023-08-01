@@ -26,7 +26,7 @@ export default function Footer() {
             <div className='flex flex-col md:flex-row gap-1'>
                 <p>Website created and maintained by </p>
                 <p>
-                    <span className='text-red-600 font-bold'>Pixel</span>Tek | a<span className='text-red-600 font-bold'>tbo</span>company
+                    <span className='text-blue-600 font-bold'>Pixel</span>Tek | a<span className='text-red-600 font-bold'>tbo</span>company
                 </p>
             </div>
         </div>

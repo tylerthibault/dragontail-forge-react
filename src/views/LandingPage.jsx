@@ -18,10 +18,10 @@ export default function LandingPage() {
             <Banner
                 title="There are no ordinary people"
             />
-            <div className='p-7 flex flex-col justify-center items-center'>
+            <div className='md:p-7 flex flex-col justify-center items-center'>
                 <div className='w-10/12'>
-                    <div className='flex justify-between items-center'>
-                        <h2 className='text-2xl text-left'>Featured Knives</h2>
+                    <div className='flex justify-evenly items-center'>
+                        <h2 className='text-4xl'>Featured Knives</h2>
                         <Link><i class="fa-solid fa-cart-shopping text-2xl py-3"></i></Link>
                     </div>
                     <div className='flex flex-wrap justify-between gap-y-5'>
@@ -29,10 +29,10 @@ export default function LandingPage() {
                             Knives.map((item, key) => {
                                 if (item.isFeatured) {
                                     let style
-                                    if (key % 3 === 2) style = 'md:justify-end'
-                                    else if (key % 3 === 1) style = 'md:justify-center'
+                                    if (key % 3 === 2) style = 'lg:justify-end'
+                                    else if (key % 3 === 1) style = 'lg:justify-center'
                                     return (
-                                        <div key={key} className={'flex justify-center w-full sm:w-1/2 md:w-1/3 ' + style}>
+                                        <div key={key} className={'flex justify-center w-full md:w-1/2 lg:w-1/3 ' + style}>
                                             <KnifeMini
                                                 data={item}
                                             />

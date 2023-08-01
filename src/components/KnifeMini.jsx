@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function KnifeMini(props) {
-    const { data, width = '10em' } = props
+    const { data } = props
     const { title, descriptionShort, stars, price, img } = data
 
     const starsEl = () => {
@@ -25,8 +25,8 @@ export default function KnifeMini(props) {
         return starsArr
     }
 
-    const divStyle = `flex flex-col items-center justify-center gap-1 w-[${width}]`
-    const imgStyle = `h-[10em] w-[10em] bg-gray-100 rounded-lg border border-black shadow`
+    const divStyle = `flex flex-col items-center justify-center gap-1 w-11/12 md:w-[10em]`
+    const imgStyle = `w-11/12 md:h-[10em] w-11/12 md:w-[10em] bg-gray-100 rounded-lg border border-black shadow`
 
     return (
         <div className={divStyle}>
@@ -39,11 +39,9 @@ export default function KnifeMini(props) {
                 <p className='font-myHeading'>${price}</p>
             </div>
             <p className='text-left'>{descriptionShort}</p>
-            <div className='flex justify-between w-full '>
-                <div className='flex gap-1 items-center justify-center text-sm'>
-                    <span className='btn'>View</span>
-                    <span className='btn btn-accent'>Add to Cart</span>
-                </div>
+            <div className='flex gap-1 w-full justify-evenly md:justify-center text-sm'>
+                <span className='btn text-xl'><i class="fa-solid fa-eye"></i></span>
+                <span className='btn btn-accent text-xl'><i class="fa-solid fa-plus"></i> <i class="fa-solid fa-cart-shopping"></i></span>
             </div>
         </div>
     )
