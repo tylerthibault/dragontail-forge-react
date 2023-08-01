@@ -41,8 +41,8 @@ export default function KnifeMini(props) {
             <p className='text-left'>{descriptionShort}</p>
             <div className='flex justify-between w-full '>
                 <div className='flex gap-1 items-center justify-center text-sm'>
-                    <a href="" className='btn'>View</a>
-                    <a href="" className='btn btn-accent'>Add to Cart</a>
+                    <span className='btn'>View</span>
+                    <span className='btn btn-accent'>Add to Cart</span>
                 </div>
             </div>
         </div>

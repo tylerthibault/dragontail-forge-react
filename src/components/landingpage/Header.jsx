@@ -7,7 +7,7 @@ import Logo from '../../img/logo.svg'
 export default function Header() {
     return (
         <div className='grid grid-cols-2'>
-            <img className='border-r-[0.75em] border-black' src={LandingPagePNG} alt="landing page image" />
+            <img className='border-r-[0.75em] border-black' src={LandingPagePNG} alt="landing page" />
             <div className='flex flex-col gap-3 justify-center items-center'>
                 <img src={Logo} alt="dragontail logo" />
                 <div className='font-myHeading text-4xl flex flex-col gap-3'>

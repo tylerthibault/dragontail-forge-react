@@ -5,7 +5,7 @@ import LogoWhite from '../img/logoWhite.svg'
 export default function Footer() {
   return (
     <div className='flex flex-col justify-center items-center bg-black pb-7 mt-7 text-white min-h-[10em]'>
-        <a href="#" className='bg-gray-700 w-full py-1'>Back to Top</a>
+        <span className='bg-gray-700 w-full py-1'>Back to Top</span>
         <div className='flex flex-col justify-center items-center'>
             <p className='font-myHeading text-xl mt-7'>Handcrafted Knives, Unleash your Edge</p>
             <img className='' src={LogoWhite} alt="" />
