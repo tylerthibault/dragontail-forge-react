@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.30599863.css",
-    "main.js": "/static/js/main.d6525746.js",
-    "static/js/787.be4556fe.chunk.js": "/static/js/787.be4556fe.chunk.js",
-    "static/media/landingpage.png": "/static/media/landingpage.86a100b6ae32e38882ef.png",
-    "static/media/logoWhite.svg": "/static/media/logoWhite.7cb15ea14209fe3109445ddf1b6fd890.svg",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.30599863.css.map": "/static/css/main.30599863.css.map",
-    "main.d6525746.js.map": "/static/js/main.d6525746.js.map",
-    "787.be4556fe.chunk.js.map": "/static/js/787.be4556fe.chunk.js.map"
+    "main.css": "/dragontail/static/css/main.30599863.css",
+    "main.js": "/dragontail/static/js/main.b80671fa.js",
+    "static/js/787.be4556fe.chunk.js": "/dragontail/static/js/787.be4556fe.chunk.js",
+    "static/media/landingpage.png": "/dragontail/static/media/landingpage.86a100b6ae32e38882ef.png",
+    "static/media/logoWhite.svg": "/dragontail/static/media/logoWhite.7cb15ea14209fe3109445ddf1b6fd890.svg",
+    "static/media/logo.svg": "/dragontail/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/dragontail/index.html",
+    "main.30599863.css.map": "/dragontail/static/css/main.30599863.css.map",
+    "main.b80671fa.js.map": "/dragontail/static/js/main.b80671fa.js.map",
+    "787.be4556fe.chunk.js.map": "/dragontail/static/js/787.be4556fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30599863.css",
-    "static/js/main.d6525746.js"
+    "static/js/main.b80671fa.js"
   ]
 }
