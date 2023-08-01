@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function KnifeMini(props) {
     const { data, width = '10em' } = props
-    const { title, descriptionShort, stars, price, isFeatured, img } = data
+    const { title, descriptionShort, stars, price, img } = data
 
     const starsEl = () => {
         let starsArr = []
