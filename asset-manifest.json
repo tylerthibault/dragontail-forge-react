@@ -1,18 +1,31 @@
 {
   "files": {
-    "main.css": "/dragontail-forge-react/static/css/main.30599863.css",
-    "main.js": "/dragontail-forge-react/static/js/main.788a26f5.js",
+    "main.css": "/dragontail-forge-react/static/css/main.6b0ae213.css",
+    "main.js": "/dragontail-forge-react/static/js/main.1d72d041.js",
     "static/js/787.be4556fe.chunk.js": "/dragontail-forge-react/static/js/787.be4556fe.chunk.js",
     "static/media/landingpage.png": "/dragontail-forge-react/static/media/landingpage.86a100b6ae32e38882ef.png",
+    "static/media/20230621_173956.jpg": "/dragontail-forge-react/static/media/20230621_173956.b5f33825804522e8cb0f.jpg",
+    "static/media/20230621_173818.jpg": "/dragontail-forge-react/static/media/20230621_173818.74f46fc3a163ee5d2f40.jpg",
+    "static/media/20230621_172540.jpg": "/dragontail-forge-react/static/media/20230621_172540.0e7038c3d2f0984f70b6.jpg",
+    "static/media/20230621_173630.jpg": "/dragontail-forge-react/static/media/20230621_173630.b0deca5b931649caaa72.jpg",
+    "static/media/20230621_172852.jpg": "/dragontail-forge-react/static/media/20230621_172852.7a46c69b476b87ed6c47.jpg",
+    "static/media/20230621_173429.jpg": "/dragontail-forge-react/static/media/20230621_173429.578622880e599457689f.jpg",
+    "static/media/20230621_172958.jpg": "/dragontail-forge-react/static/media/20230621_172958.0ca2f57a7a381ab26d20.jpg",
+    "static/media/20230615_134023.jpg": "/dragontail-forge-react/static/media/20230615_134023.7968f4b555a576bb3f4a.jpg",
+    "static/media/20230621_174320.jpg": "/dragontail-forge-react/static/media/20230621_174320.5e67482ca98eb84b398c.jpg",
+    "static/media/20230621_172324.jpg": "/dragontail-forge-react/static/media/20230621_172324.1b87f478a089254a6aea.jpg",
+    "static/media/20230621_172712.jpg": "/dragontail-forge-react/static/media/20230621_172712.3d3fca878d2b7ec1ae11.jpg",
+    "static/media/20230615_134143.jpg": "/dragontail-forge-react/static/media/20230615_134143.9e15ca35d8650a163075.jpg",
+    "static/media/20230621_173203.jpg": "/dragontail-forge-react/static/media/20230621_173203.f63edf8a4ab5ad3cb0f0.jpg",
     "static/media/logoWhite.svg": "/dragontail-forge-react/static/media/logoWhite.7cb15ea14209fe3109445ddf1b6fd890.svg",
     "static/media/logo.svg": "/dragontail-forge-react/static/media/logo.be31fab49e3179eeb76b833729ca91b2.svg",
     "index.html": "/dragontail-forge-react/index.html",
-    "main.30599863.css.map": "/dragontail-forge-react/static/css/main.30599863.css.map",
-    "main.788a26f5.js.map": "/dragontail-forge-react/static/js/main.788a26f5.js.map",
+    "main.6b0ae213.css.map": "/dragontail-forge-react/static/css/main.6b0ae213.css.map",
+    "main.1d72d041.js.map": "/dragontail-forge-react/static/js/main.1d72d041.js.map",
     "787.be4556fe.chunk.js.map": "/dragontail-forge-react/static/js/787.be4556fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30599863.css",
-    "static/js/main.788a26f5.js"
+    "static/css/main.6b0ae213.css",
+    "static/js/main.1d72d041.js"
   ]
 }
