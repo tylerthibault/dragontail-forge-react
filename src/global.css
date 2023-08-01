@@ -1,0 +1,24 @@
+h1,h2,h3 {
+    @apply font-myHeading
+}
+
+button, .btn {
+    @apply px-3 border rounded duration-300
+}
+
+button:hover, .btn:hover {
+    @apply shadow opacity-90
+}
+
+.btn-accent {
+    @apply bg-myaccent1
+}
+
+.my-outline-black {
+    -webkit-text-stroke: 0.1em black; /* width and color */
+}
+
+/* Forms */
+input, .input {
+    @apply border shadow rounded text-center w-full
+}
