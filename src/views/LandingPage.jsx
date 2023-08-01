@@ -42,7 +42,7 @@ export default function LandingPage() {
                             })
                         }
                     </div>
-                    <div className='flex mt-5 justify-center'>
+                    <div className='flex my-5 justify-center'>
                         <Link className='btn bg-slate-500 text-white font-myHeading text-xl' to='/'>See All</Link>
                     </div>
                 </div>
