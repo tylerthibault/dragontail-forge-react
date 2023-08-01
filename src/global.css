@@ -2,6 +2,8 @@ h1,h2,h3 {
     @apply font-myHeading
 }
 
+/* Buttons */
+
 button, .btn {
     @apply px-3 border rounded duration-300
 }
@@ -14,6 +16,15 @@ button:hover, .btn:hover {
     @apply bg-myaccent1
 }
 
+.btn-nav {
+    @apply duration-300
+}
+
+.btn-nav:hover {
+    @apply text-myaccent1
+}
+
+
 .my-outline-black {
     -webkit-text-stroke: 0.1em black; /* width and color */
 }
@@ -22,3 +33,15 @@ button:hover, .btn:hover {
 input, .input {
     @apply border shadow rounded text-center w-full
 }
+
+body::-webkit-scrollbar {
+    width: 0.5rem;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    @apply bg-mydark1 ;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    @apply bg-slate-700 rounded ;
+  }

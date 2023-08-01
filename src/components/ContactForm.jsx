@@ -5,8 +5,8 @@ export default function ContactForm() {
         <div className='flex flex-col justify-center items-center gap-3'>
             <h2 className='text-4xl'>Contact Us Today</h2>
             <p className='font-myHeading text-xl'>Inquire today and let's etch your story on steel</p>
-            <form className='w-1/2'>
-                <div className='flex gap-3 w-full'>
+            <form className='w-10/12 md:w-1/2'>
+                <div className='flex flex-col md:flex-row md:gap-3 w-full'>
                     <div className='mb-3 w-full'>
                         <label htmlFor="firstName"></label>
                         <input type="text" name="firstName" id="firstName" placeholder='First Name' />
@@ -33,7 +33,7 @@ export default function ContactForm() {
                     <textarea className='input capitalize' name="message" id="message" cols="30" rows="10" placeholder='Write your message here'></textarea>
                 </div>
                 <div className='flex justify-end'>
-                <button className='btn-accent font-myHeading text-xl py-3'>Send</button>
+                <button className='btn-accent font-myHeading text-xl py-3 w-full md:w-fit'>Send</button>
                 </div>
             </form>
         </div>

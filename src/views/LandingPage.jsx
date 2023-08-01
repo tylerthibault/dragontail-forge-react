@@ -27,16 +27,18 @@ export default function LandingPage() {
                     <div className='flex flex-wrap justify-between gap-y-5'>
                         {
                             Knives.map((item, key) => {
-                                let style
-                                if (key % 3 === 2) style = 'justify-end'
-                                else if (key % 3 === 1) style = 'justify-center'
-                                return (
-                                    <div key={key} className={'flex w-1/3 ' + style}>
-                                        <KnifeMini
-                                            data={item}
-                                        />
-                                    </div>
-                                )
+                                if (item.isFeatured) {
+                                    let style
+                                    if (key % 3 === 2) style = 'md:justify-end'
+                                    else if (key % 3 === 1) style = 'md:justify-center'
+                                    return (
+                                        <div key={key} className={'flex justify-center w-full sm:w-1/2 md:w-1/3 ' + style}>
+                                            <KnifeMini
+                                                data={item}
+                                            />
+                                        </div>
+                                    )
+                                }
                             })
                         }
                     </div>
