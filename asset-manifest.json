@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dragontail-forge-react/static/css/main.008d2e31.css",
-    "main.js": "/dragontail-forge-react/static/js/main.6f3e2d9e.js",
+    "main.css": "/dragontail-forge-react/static/css/main.bb7cffa7.css",
+    "main.js": "/dragontail-forge-react/static/js/main.7325b583.js",
     "static/js/787.be4556fe.chunk.js": "/dragontail-forge-react/static/js/787.be4556fe.chunk.js",
     "static/media/blacksmithIntro2.mp4": "/dragontail-forge-react/static/media/blacksmithIntro2.4f46932e4a2de50bd182.mp4",
     "static/media/landingpage.png": "/dragontail-forge-react/static/media/landingpage.86a100b6ae32e38882ef.png",
@@ -20,12 +20,12 @@
     "static/media/20230621_173203.jpg": "/dragontail-forge-react/static/media/20230621_173203.f63edf8a4ab5ad3cb0f0.jpg",
     "static/media/logoWhite.svg": "/dragontail-forge-react/static/media/logoWhite.7cb15ea14209fe3109445ddf1b6fd890.svg",
     "index.html": "/dragontail-forge-react/index.html",
-    "main.008d2e31.css.map": "/dragontail-forge-react/static/css/main.008d2e31.css.map",
-    "main.6f3e2d9e.js.map": "/dragontail-forge-react/static/js/main.6f3e2d9e.js.map",
+    "main.bb7cffa7.css.map": "/dragontail-forge-react/static/css/main.bb7cffa7.css.map",
+    "main.7325b583.js.map": "/dragontail-forge-react/static/js/main.7325b583.js.map",
     "787.be4556fe.chunk.js.map": "/dragontail-forge-react/static/js/787.be4556fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.008d2e31.css",
-    "static/js/main.6f3e2d9e.js"
+    "static/css/main.bb7cffa7.css",
+    "static/js/main.7325b583.js"
   ]
 }
