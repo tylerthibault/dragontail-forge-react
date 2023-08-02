@@ -27,7 +27,7 @@ export default function Navbar() {
     const topBarContent = () => {
         return (
             <div className={topBarStyle}>
-                <h2 className='text-xl md:text-2xl'>Dragontail <span className='text-myaccent1'>Forge</span></h2>
+                <h2 className='text-2xl md:text-2xl'>Dragontail <span className='text-myaccent1'>Forge</span></h2>
                 <div className='md:hidden'>
                     {
                         !menuShowing ?
