@@ -6,7 +6,7 @@ export default function Navbar() {
 
     const menuItems = () => {
         return (
-            <ul className='flex flex-col md:flex-row gap-3 font-myHeading md:text-base xl:text-xl mt-5 md:mt-0'>
+            <ul className='flex flex-col md:flex-row gap-3 font-myHeading text-2xl md:text-base xl:text-xl mt-5 md:mt-0'>
                 <li><Link className='btn-nav' to="/">Home</Link></li>
                 <li><Link className='btn-nav' to="/">Available Work</Link></li>
                 <li><Link className='btn-nav' to="/">Story</Link></li>
