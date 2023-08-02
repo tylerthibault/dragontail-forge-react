@@ -20,19 +20,20 @@ export default function LandingPage() {
             />
             <div className='md:p-7 flex flex-col justify-center items-center'>
                 <div className='w-10/12'>
-                    <div className='flex justify-evenly items-center'>
+                    <div className='flex justify-between items-center'>
                         <h2 className='text-4xl'>Featured Knives</h2>
                         <Link><i class="fa-solid fa-cart-shopping text-2xl py-3"></i></Link>
                     </div>
-                    <div className='flex flex-wrap justify-between gap-y-5'>
+                    <div className='flex flex-wrap justify-between gap-x-1 gap-y-5'>
                         {
                             Knives.map((item, key) => {
                                 if (item.isFeatured) {
                                     let style
-                                    if (key % 3 === 2) style = 'lg:justify-end'
-                                    else if (key % 3 === 1) style = 'lg:justify-center'
+                                    if (key % 3 === 2) style = 'md:justify-end'
+                                    else if (key % 3 === 1) style = 'md:justify-center'
+                                    else style = 'md:justify-start'
                                     return (
-                                        <div key={key} className={'flex justify-center w-full md:w-1/2 lg:w-1/3 ' + style}>
+                                        <div key={key} className={'flex justify-center w-full lg:w-1/3 xl:w-1/4 ' + style}>
                                             <KnifeMini
                                                 data={item}
                                             />
@@ -50,8 +51,11 @@ export default function LandingPage() {
             <Banner
                 title="You are no mere mortal"
             />
-            <div className='py-7'>
+            <div className='flex flex-col md:grid grid-cols-2 '>
+                <img className='mb-7 md:mb-0 h-full object-cover' src="https://images.pexels.com/photos/35860/forge-craft-hot-form.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                <div className='w-full flex justify-center items-center mb-7 md:mb-0'>
                 <ContactForm />
+                </div>
             </div>
             <Footer />
         </>

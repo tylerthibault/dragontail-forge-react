@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ContactForm() {
     return (
-        <div className='flex flex-col justify-center items-center gap-3'>
+        <div className='flex flex-col justify-center items-center gap-3 w-full'>
             <h2 className='text-4xl'>Contact Us Today</h2>
             <p className='font-myHeading text-xl'>Inquire today and let's etch your story on steel</p>
             <form className='w-10/12 md:w-1/2'>

@@ -16,6 +16,10 @@ button:hover, .btn:hover {
     @apply bg-myaccent1
 }
 
+.btn-accent-2 {
+    @apply bg-myaccent2
+}
+
 .btn-nav {
     @apply duration-300
 }
