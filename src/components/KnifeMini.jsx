@@ -28,7 +28,7 @@ export default function KnifeMini(props) {
 
     return (
         <>
-            <div className='flex flex-col items-center justify-center gap-1 w-11/12 md:w-full'>
+            <div className='flex flex-col items-center justify-center gap-1 w-11/12 md:w-full '>
                 <img className='w-11/12 md:h-full md:w-full bg-gray-100 rounded-lg border border-black shadow' src={img} alt={"knife " + title} loading='lazy' />
                 <div className='flex gap-3'>
                     {starsEl()}
