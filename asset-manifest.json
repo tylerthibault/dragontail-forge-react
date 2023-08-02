@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/dragontail-forge-react/static/css/main.bf86a25e.css",
-    "main.js": "/dragontail-forge-react/static/js/main.a59ebfdd.js",
+    "main.css": "/dragontail-forge-react/static/css/main.008d2e31.css",
+    "main.js": "/dragontail-forge-react/static/js/main.6f3e2d9e.js",
     "static/js/787.be4556fe.chunk.js": "/dragontail-forge-react/static/js/787.be4556fe.chunk.js",
+    "static/media/blacksmithIntro2.mp4": "/dragontail-forge-react/static/media/blacksmithIntro2.4f46932e4a2de50bd182.mp4",
     "static/media/landingpage.png": "/dragontail-forge-react/static/media/landingpage.86a100b6ae32e38882ef.png",
     "static/media/20230621_173956.jpg": "/dragontail-forge-react/static/media/20230621_173956.b5f33825804522e8cb0f.jpg",
     "static/media/20230621_173818.jpg": "/dragontail-forge-react/static/media/20230621_173818.74f46fc3a163ee5d2f40.jpg",
@@ -18,14 +19,13 @@
     "static/media/20230615_134143.jpg": "/dragontail-forge-react/static/media/20230615_134143.9e15ca35d8650a163075.jpg",
     "static/media/20230621_173203.jpg": "/dragontail-forge-react/static/media/20230621_173203.f63edf8a4ab5ad3cb0f0.jpg",
     "static/media/logoWhite.svg": "/dragontail-forge-react/static/media/logoWhite.7cb15ea14209fe3109445ddf1b6fd890.svg",
-    "static/media/logo.svg": "/dragontail-forge-react/static/media/logo.be31fab49e3179eeb76b833729ca91b2.svg",
     "index.html": "/dragontail-forge-react/index.html",
-    "main.bf86a25e.css.map": "/dragontail-forge-react/static/css/main.bf86a25e.css.map",
-    "main.a59ebfdd.js.map": "/dragontail-forge-react/static/js/main.a59ebfdd.js.map",
+    "main.008d2e31.css.map": "/dragontail-forge-react/static/css/main.008d2e31.css.map",
+    "main.6f3e2d9e.js.map": "/dragontail-forge-react/static/js/main.6f3e2d9e.js.map",
     "787.be4556fe.chunk.js.map": "/dragontail-forge-react/static/js/787.be4556fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf86a25e.css",
-    "static/js/main.a59ebfdd.js"
+    "static/css/main.008d2e31.css",
+    "static/js/main.6f3e2d9e.js"
   ]
 }
