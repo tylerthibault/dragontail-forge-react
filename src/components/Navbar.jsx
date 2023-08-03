@@ -6,7 +6,7 @@ export default function Navbar() {
 
     const menuItems = () => {
         return (
-            <ul className='flex flex-col md:flex-row gap-3 font-myHeading text-2xl md:text-base xl:text-xl mt-5 md:mt-0'>
+            <ul className='flex flex-col md:flex-row gap-3 font-myHeading text-2xl md:text-base xl:text-xl mt-5 md:mt-0 h-full'>
                 <li><Link className='btn-nav' to="/">Home</Link></li>
                 <li><Link className='btn-nav' to="/">Available Work</Link></li>
                 <li><Link className='btn-nav' to="/">Story</Link></li>
@@ -20,7 +20,7 @@ export default function Navbar() {
     }
 
     const wrapperStyle = 'sticky top-0 z-10'
-    const topBarStyle = 'bg-black text-white w-full py-3 flex flex-col justify-center items-center gap-3'
+    const topBarStyle = 'bg-black text-white w-full py-3 flex justify-between px-3 items-center gap-3'
 
     const navOpenStyle = 'fixed top-0 left-0 bg-black text-white w-full h-full flex flex-col mt-auto '
 
@@ -28,15 +28,15 @@ export default function Navbar() {
         return (
             <div className={topBarStyle}>
                 <h2 className='text-2xl md:text-2xl'>Dragontail <span className='text-myaccent1'>Forge</span></h2>
-                <div className='md:hidden'>
+                <div className='md:hidden flex items-center'>
                     {
                         !menuShowing ?
                             <>
-                                <button onClick={() => setMenuShowing(true)}>Menu</button>
+                                <button className='leading-none pt-1' onClick={() => setMenuShowing(true)}>Menu</button>
                             </>
                             :
                             <>
-                                <button className='bg-myaccent1 text-black font-bold' onClick={() => setMenuShowing(false)}>Close</button>
+                                <button className='leading-none pt-1 bg-myaccent1 text-black font-bold' onClick={() => setMenuShowing(false)}>Close</button>
                             </>
 
                     }
@@ -47,45 +47,28 @@ export default function Navbar() {
 
     return (
         <div className={wrapperStyle}>
-            {topBarContent()}
+            <div className='flex justify-between bg-black md:px-7'>
+                {topBarContent()}
+                <div className='hidden  text-white w-full md:flex justify-end'>
+                    {menuItems()}
+                </div>
+            </div>
+
 
             {/* Mobile Version */}
-            {
-                menuShowing &&
-                <div className={navOpenStyle}>
-                    <div className='mt-0'>
-                        {topBarContent()}
+            <div className='md:hidden'>
+                {
+                    menuShowing &&
+                    <div className={navOpenStyle}>
+                        <div className='mt-0'>
+                            {topBarContent()}
+                        </div>
+                        <div className='mt-[10%]'>
+                            {menuItems()}
+                        </div>
                     </div>
-                    <div className='mt-[50%]'>
-                        {menuItems()}
-                    </div>
-                </div>
-            }
+                }
+            </div>
         </div>
-        // <div className='bg-black flex flex-col md:flex-row justify-center md:justify-between items-center px-3 text-white py-5 sticky top-0'>
-        //     <h2 className='font-myHeading text-4xl'>Dragontail <span className='text-myaccent1'>Forge</span></h2>
-        //     <div className='hidden md:inline-block'>
-        //         {menuItems()}
-        //     </div>
-        //     <div className='md:hidden'>
-        //         {
-        //             !menuShowing ?
-        //                 <span className='border border-white rounded px-3 duration-300' onClick={() => setMenuShowing(!menuShowing)}>Menu!!</span>
-        //                 :
-        //                 <span className='border-2 border-slate-500 rounded px-3 duration-300 bg-myaccent1 text-black' onClick={() => setMenuShowing(!menuShowing)}>Menu</span>
-
-        //         }
-        //         {
-        //             menuShowing &&
-        //             <div className='pt-3 fixed top-0 left-0 pb-7 bg-black w-screen h-screen mt-2 gap-3 flex flex-col items-center'>
-        //                 <h2 className='font-myHeading text-4xl'>Dragontail <span className='text-myaccent1'>Forge</span></h2>
-        //                 <span className='w-fit border-2 border-slate-500 rounded px-3 duration-300 bg-myaccent1 text-black' onClick={() => setMenuShowing(!menuShowing)}>Close</span>
-        //                 <div className='h-full flex justify-center items-center gap-5 text-4xl'>
-        //                 {menuItems()}
-        //                 </div>
-        //             </div>
-        //         }
-        //     </div>
-        // </div>
     )
 }

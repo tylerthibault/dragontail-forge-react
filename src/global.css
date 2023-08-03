@@ -1,3 +1,7 @@
+body {
+    @apply font-myPara
+}
+
 h1,h2,h3 {
     @apply font-myHeading
 }
