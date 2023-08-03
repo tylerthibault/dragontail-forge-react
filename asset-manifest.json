@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/dragontail-forge-react/static/css/main.bb7cffa7.css",
-    "main.js": "/dragontail-forge-react/static/js/main.99c76251.js",
+    "main.css": "/dragontail-forge-react/static/css/main.d6acc9a6.css",
+    "main.js": "/dragontail-forge-react/static/js/main.0dc36e4a.js",
     "static/js/787.be4556fe.chunk.js": "/dragontail-forge-react/static/js/787.be4556fe.chunk.js",
     "static/media/blacksmithIntro2.mp4": "/dragontail-forge-react/static/media/blacksmithIntro2.4f46932e4a2de50bd182.mp4",
-    "static/media/landingpage.png": "/dragontail-forge-react/static/media/landingpage.86a100b6ae32e38882ef.png",
     "static/media/20230621_173956.jpg": "/dragontail-forge-react/static/media/20230621_173956.b5f33825804522e8cb0f.jpg",
     "static/media/20230621_173818.jpg": "/dragontail-forge-react/static/media/20230621_173818.74f46fc3a163ee5d2f40.jpg",
     "static/media/20230621_172540.jpg": "/dragontail-forge-react/static/media/20230621_172540.0e7038c3d2f0984f70b6.jpg",
@@ -20,12 +19,12 @@
     "static/media/20230621_173203.jpg": "/dragontail-forge-react/static/media/20230621_173203.f63edf8a4ab5ad3cb0f0.jpg",
     "static/media/logoWhite.svg": "/dragontail-forge-react/static/media/logoWhite.7cb15ea14209fe3109445ddf1b6fd890.svg",
     "index.html": "/dragontail-forge-react/index.html",
-    "main.bb7cffa7.css.map": "/dragontail-forge-react/static/css/main.bb7cffa7.css.map",
-    "main.99c76251.js.map": "/dragontail-forge-react/static/js/main.99c76251.js.map",
+    "main.d6acc9a6.css.map": "/dragontail-forge-react/static/css/main.d6acc9a6.css.map",
+    "main.0dc36e4a.js.map": "/dragontail-forge-react/static/js/main.0dc36e4a.js.map",
     "787.be4556fe.chunk.js.map": "/dragontail-forge-react/static/js/787.be4556fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb7cffa7.css",
-    "static/js/main.99c76251.js"
+    "static/css/main.d6acc9a6.css",
+    "static/js/main.0dc36e4a.js"
   ]
 }
