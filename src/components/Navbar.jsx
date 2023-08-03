@@ -20,7 +20,7 @@ export default function Navbar() {
     }
 
     const wrapperStyle = 'sticky top-0 z-10'
-    const topBarStyle = 'bg-black text-white w-fit py-3 flex whitespace-nowrap justify-between px-3 items-center gap-3'
+    const topBarStyle = 'bg-black text-white w-fit py-3 flex w-full md:w-fit whitespace-nowrap justify-between px-3 items-center gap-3'
 
     const navOpenStyle = 'fixed top-0 left-0 bg-black text-white w-full h-full flex flex-col mt-auto '
 
