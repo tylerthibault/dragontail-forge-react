@@ -15,7 +15,7 @@ export default function AboutUs() {
             </div>
 
             {/* Section */}
-            <div className='md:border-r-[0.75em] border-t-[0.75em] lg:border-t-0 lg:border-x-[0.75em] border-black h-full'>
+            <div className='md:border-r-[0.75em] border-y-[0.75em] lg:border-y-0 lg:border-x-[0.75em] border-black h-full'>
                 <img className='h-full object-cover object-right' src="https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/355363078_9351674868236503_3352577227081706991_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=ozJZFf3tyD4AX9i1pIy&_nc_ht=scontent-sjc3-1.xx&oh=00_AfBP61QvMe8rPP6aLV1liPYQ70mvvegKBig7AD4xA_7eFg&oe=64D0B6F2" alt="" />
             </div>
 

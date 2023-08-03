@@ -1,20 +1,38 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 export default function Navbar() {
     const [menuShowing, setMenuShowing] = useState(false)
+    const location = useLocation()
+    const path = location.pathname
+    const navUrl = {
+        'Home': '/',
+        'Available Work': '/available_work',
+        'Story': '/story',
+        'Knife Care': '/knife_care',
+        'FAQ': '/FAQ',
+        'Return Policy': '/return_policy',
+        'Blog': '/blog',
+    }
+
+    const checkActivePath = (name) => {
+        let style = ''
+        if (navUrl[name] === path) {
+            style = 'text-myaccent1'
+        }
+        return style
+    }
 
     const menuItems = () => {
         return (
             <ul className='flex flex-col md:flex-row gap-3 font-myHeading text-2xl md:text-base xl:text-xl mt-5 md:mt-0 items-center'>
-                <li><Link className='btn-nav' to="/">Home</Link></li>
-                <li><Link className='btn-nav' to="/">Available Work</Link></li>
-                <li><Link className='btn-nav' to="/">Story</Link></li>
-                <li><Link className='btn-nav' to="/">Contact</Link></li>
-                <li><Link className='btn-nav' to="/">Knife Care</Link></li>
-                <li><Link className='btn-nav' to="/">FAQ</Link></li>
-                <li><Link className='btn-nav' to="/">Return Policy</Link></li>
-                <li><Link className='btn-nav' to="/">Blog</Link></li>
+                <li><Link className={'btn-nav ' + checkActivePath('Home')} to="/">Home</Link></li>
+                <li><Link className={'btn-nav ' + checkActivePath('Available Work')} to="/">Available Work</Link></li>
+                <li><Link className={'btn-nav ' + checkActivePath('Story')} to="/">Story</Link></li>
+                <li><Link className={'btn-nav ' + checkActivePath('Knife Care')} to="/">Knife Care</Link></li>
+                <li><Link className={'btn-nav ' + checkActivePath('FAQ')} to="/">FAQ</Link></li>
+                <li><Link className={'btn-nav ' + checkActivePath('Return Policy')} to="/">Return Policy</Link></li>
+                <li><Link className={'btn-nav ' + checkActivePath('Blog')} to="/">Blog</Link></li>
             </ul>
         )
     }

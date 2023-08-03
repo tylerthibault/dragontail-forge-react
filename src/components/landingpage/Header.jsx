@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import IntroVid from '../img/vids/blacksmithIntro2.mp4'
-import Logo from '../img/logoWhite.svg'
+import IntroVid from '../../img/vids/blacksmithIntro2.mp4'
+import Logo from '../../img/logoWhite.svg'
 
 export default function Header() {
     return (
