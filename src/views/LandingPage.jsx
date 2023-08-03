@@ -11,6 +11,7 @@ import ContactForm from '../components/ContactForm'
 import Footer from '../components/Footer'
 import ProductsShow from '../components/ProductsShow'
 import Testimonials from '../components/TestimonialList'
+import AboutUs from '../components/AboutUs'
 
 export default function LandingPage() {
     const [allKnives, setAllKnives] = useState(Knives)
@@ -23,9 +24,14 @@ export default function LandingPage() {
             {/* Navbar */}
             <Navbar />
 
+            {/* About Us */}
+            <div className=''>
+            <AboutUs />
+            </div>
+
             {/* Banner */}
             <Banner
-                title="There are no ordinary people"
+                title="You are no mere mortal"
                 />
 
             {/* Featured Products */}
@@ -37,8 +43,9 @@ export default function LandingPage() {
 
             {/* Banner */}
             <Banner
-                title="You are no mere mortal"
+                title="There are no ordinary people"
                 />
+            
 
             {/* Testimonials */}
             <div className='my-7'>

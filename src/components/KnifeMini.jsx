@@ -19,11 +19,11 @@ export default function KnifeMini(props) {
                     <div className='flex justify-center mt-auto'>
                     <p className='text-center mt-auto w-5/6'>{descriptionShort}</p>
                     </div>
-                    <div className='flex justify-between w-full items-center mt-auto'>
+                    <div className='flex flex-col 2xl:flex-row gap-3 justify-between w-full items-center mt-auto'>
                         <p className='font-myHeading text-4xl'>${price}</p>
-                        <div className='flex gap-1 w-full justify-end md:justify-center text-sm'>
-                            <span className='btn text-xl py-2 btn-accent-2'><i class="fa-solid fa-eye"></i></span>
-                            <span className='btn btn-accent text-xl py-2'><i class="fa-solid fa-plus"></i> <i class="fa-solid fa-cart-shopping"></i></span>
+                        <div className='flex justify-end md:justify-center items-center gap-1 w-full  text-sm'>
+                            <span className='btn text-xl py-2 btn-accent-2 flex items-center gap-3'><i class="fa-solid fa-eye"></i></span>
+                            <span className='btn btn-accent text-xl py-2 flex items-center gap-3'><i class="fa-solid fa-plus"></i> <i class="fa-solid fa-cart-shopping"></i></span>
                         </div>
                     </div>
                 </div>

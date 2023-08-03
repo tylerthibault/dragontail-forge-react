@@ -9,14 +9,14 @@ export default function StarRating(props) {
             if (i < starRating) {
                 starsArr.push(
                     <div>
-                        <i class="fa-solid fa-star text-yellow-300 my-outline-black"></i>
+                        <i class="fa-solid fa-star text-myaccent2 my-outline-black"></i>
                     </div>
                 )
             }
             else {
                 starsArr.push(
                     <div>
-                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-solid my-outline-black fa-star text-mylight1"></i>
                     </div>
                 )
             }
