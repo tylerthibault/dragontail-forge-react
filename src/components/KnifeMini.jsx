@@ -7,8 +7,8 @@ export default function KnifeMini(props) {
 
     return (
         <>
-            <div className='flex flex-col md:flex-row items-center justify-center gap-1 h-full'>
-                <img className='h-full max-h-[20rem] w-fit max-w-[15rem] bg-gray-100 rounded-lg border border-black shadow' src={img} alt={"knife " + title} loading='lazy' />
+            <div className='flex flex-col lg:flex-row items-center justify-center gap-1 h-full'>
+                <img className='h-[20rem] w-[15rem] bg-gray-100 rounded-lg border border-black shadow' src={img} alt={"knife " + title} loading='lazy' />
                 <div className='flex flex-col h-full'>
                     <div className='flex justify-center w-full text-2xl mt-0'>
                         <p className='text-center w-full font-myHeading'>{title}</p>

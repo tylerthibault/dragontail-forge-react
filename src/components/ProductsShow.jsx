@@ -17,11 +17,11 @@ export default function ProductsShow(props) {
                                 <i class="fa-solid fa-cart-shopping text-4xl py-3"></i>
                             </Link>
                         </div>
-                        <div className='grid grid-cols-1 md:grid-cols-3 gap-3 p-3'>
+                        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 p-3'>
                             {
                                 products.map((item, key) => {
                                     return (
-                                        <div className='' key={key}>
+                                        <div key={key}>
                                             <KnifeMini data={item} />
                                         </div>
                                     )

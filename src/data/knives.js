@@ -31,7 +31,7 @@ const Knives = [
         'descriptionLong': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate enim accusamus dignissimos tempore, fuga magni. Magnam nesciunt quis ex iusto dolor nobis dolores molestiae. Suscipit fuga ducimus consectetur, nam laudantium quod nesciunt veniam repellat non odit, quisquam praesentium odio natus. Necessitatibus velit magni nobis harum sit itaque dolores excepturi dolore.',
         'stars': 4,
         'price': 400,
-        'isFeatured': true,
+        'isFeatured': false,
         'img': DragonParingKnife
     },
     {
@@ -91,7 +91,7 @@ const Knives = [
         'descriptionLong': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate enim accusamus dignissimos tempore, fuga magni. Magnam nesciunt quis ex iusto dolor nobis dolores molestiae. Suscipit fuga ducimus consectetur, nam laudantium quod nesciunt veniam repellat non odit, quisquam praesentium odio natus. Necessitatibus velit magni nobis harum sit itaque dolores excepturi dolore.',
         'stars': 4,
         'price': 350,
-        'isFeatured': false,
+        'isFeatured': true,
         'img': DragontailRecurveHunter
     },
     {

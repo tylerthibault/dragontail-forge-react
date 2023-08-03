@@ -6,7 +6,7 @@ export default function Navbar() {
 
     const menuItems = () => {
         return (
-            <ul className='flex flex-col md:flex-row gap-3 font-myHeading text-2xl md:text-base xl:text-xl mt-5 md:mt-0 h-full'>
+            <ul className='flex flex-col md:flex-row gap-3 font-myHeading text-2xl md:text-base xl:text-xl mt-5 md:mt-0 items-center'>
                 <li><Link className='btn-nav' to="/">Home</Link></li>
                 <li><Link className='btn-nav' to="/">Available Work</Link></li>
                 <li><Link className='btn-nav' to="/">Story</Link></li>
@@ -20,14 +20,14 @@ export default function Navbar() {
     }
 
     const wrapperStyle = 'sticky top-0 z-10'
-    const topBarStyle = 'bg-black text-white w-full py-3 flex justify-between px-3 items-center gap-3'
+    const topBarStyle = 'bg-black text-white w-fit py-3 flex whitespace-nowrap justify-between px-3 items-center gap-3'
 
     const navOpenStyle = 'fixed top-0 left-0 bg-black text-white w-full h-full flex flex-col mt-auto '
 
     const topBarContent = () => {
         return (
             <div className={topBarStyle}>
-                <h2 className='text-2xl md:text-2xl'>Dragontail <span className='text-myaccent1'>Forge</span></h2>
+                <h2 className='text-2xl md:text-2xl '>Dragontail <span className='text-myaccent1'>Forge</span></h2>
                 <div className='md:hidden flex items-center'>
                     {
                         !menuShowing ?
@@ -49,7 +49,7 @@ export default function Navbar() {
         <div className={wrapperStyle}>
             <div className='flex justify-between bg-black md:px-7'>
                 {topBarContent()}
-                <div className='hidden  text-white w-full md:flex justify-end'>
+                <div className='hidden text-white w-full md:flex justify-end'>
                     {menuItems()}
                 </div>
             </div>
